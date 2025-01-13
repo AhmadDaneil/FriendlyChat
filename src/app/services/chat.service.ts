@@ -53,6 +53,7 @@ type ChatMessage = {
 @Injectable({
   providedIn: 'root',
 })
+
 export class ChatService {
   firestore: Firestore = inject(Firestore);
   auth: Auth = inject(Auth);
